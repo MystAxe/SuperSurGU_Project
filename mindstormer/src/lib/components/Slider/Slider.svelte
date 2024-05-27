@@ -37,9 +37,7 @@ navigation="true"
 		width: 100%;
 		height: auto;
 	}
-	.slide {
-	}
-    .slide img {
+  .slide img {
 		width: 100%;
 		height: auto;
 		border-radius: 25px;

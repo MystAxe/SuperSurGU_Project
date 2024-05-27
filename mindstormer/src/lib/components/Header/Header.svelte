@@ -1,16 +1,10 @@
 <div style="height: 85px;"></div>
 <header class="header">
-	<div class="header__logo">Epoxy Almaz</div>
+	<a class="header__logo" href="/">Epoxy Almaz</a>
 	<div class="header__menu">
-		<a class="header__item" href="##">Link A</a>
-		<a class="header__item" href="##">Item B</a>
-		<a class="header__item" href="##">Deal C</a>
-		<a class="header__item" href="##">Box D</a>
-		<a class="header__item" href="##">Long Item E</a>
+		<a class="header__item" href="catalog">КАТАЛОГ</a>
+		<a class="header__item" href="faq">FAQ</a>
 	</div>
-		<a href="##" class="login-button">
-			<img class="login-img" src="cart.png" alt="" />
-		</a>
 </header>
 
 <style>
@@ -31,8 +25,10 @@
 	.header__logo {
 		font-size: 32px;
 		position: absolute;
-		left: 20px;
+		left: 30px;
 		top: 20px;
+		color: #000;
+		text-decoration: none;
 	}
 
 	.header__menu {

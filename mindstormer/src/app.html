@@ -12,6 +12,10 @@
 	<style>
 		* {
 			font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+			animation: fadein 1s;
+		}
+		html {
+			scroll-behavior: smooth;
 		}
 		body {
 			margin: 0;
@@ -19,7 +23,16 @@
 		}
 		.container {
 			margin: auto;
-			max-width: 1200px;
+			max-width: 1160px;
+			padding: 0 20px;
 		}
+		@keyframes fadein {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
 	</style>
 </html>
